@@ -24,6 +24,10 @@
             android:name=".login_page"
             android:label="@string/title_activity_login_page" >
         </activity>
+        <activity
+            android:name=".qr_page"
+            android:label="@string/title_activity_qr_page" >
+        </activity>
     </application>
 
 </manifest>

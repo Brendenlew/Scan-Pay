@@ -59,13 +59,4 @@
         android:layout_alignStart="@+id/editText2"
         android:onClick="goSignUp"/>
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/login_logo"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
 </RelativeLayout>

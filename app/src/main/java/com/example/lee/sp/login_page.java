@@ -1,17 +1,29 @@
 package com.example.lee.sp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class login_page extends ActionBarActivity {
+
+    ImageButton qrbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
+        qrbutton = (ImageButton) findViewById(R.id.qr_button);
+    }
+
+    public void goQR(View view){
+        Intent intent = new Intent(this, qr_page.class);
+        startActivity(intent);
     }
 
     @Override
