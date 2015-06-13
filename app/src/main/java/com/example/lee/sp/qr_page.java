@@ -22,6 +22,7 @@ public class qr_page extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_qr_page);
         scanBtn = (Button) findViewById(R.id.scan_button);
         formatTxt = (TextView) findViewById(R.id.scan_format);
