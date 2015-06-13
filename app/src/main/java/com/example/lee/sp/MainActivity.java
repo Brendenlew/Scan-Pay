@@ -19,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         button = (Button) findViewById(R.id.singup_button);
         button2 = (Button) findViewById(R.id.login_button);
     }
